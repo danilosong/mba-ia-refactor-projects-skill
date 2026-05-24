@@ -10,7 +10,7 @@ class Category(db.Model):
     color = db.Column(db.String(7), default='#000000')
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
 
-    def to_dict(self):
+    def to_dict(self, include_task_count=False):
         d = {
             'id': self.id,
             'name': self.name,
@@ -18,4 +18,6 @@ class Category(db.Model):
             'color': self.color,
             'created_at': str(self.created_at),
         }
+        if include_task_count:
+            d['task_count'] = len(self.tasks)
         return d
