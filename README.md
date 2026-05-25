@@ -138,6 +138,18 @@ delete_user 200
 
 ![Figura 4 — validação funcional do ecommerce-api-legacy após a refatoração, com relatório financeiro, checkout aprovado e checkout recusado respondendo corretamente.](./assets/screenshots/ecommerce-api-legacy-endpoints.png)
 
+### Execução da Skill no Codex
+
+Além dos relatórios finais e da validação das aplicações refatoradas, a skill `refactor-arch` também foi executada diretamente no OpenAI Codex durante o processo. A execução abaixo mostra a skill seguindo o fluxo esperado da atividade: análise da stack, identificação da arquitetura atual, geração da auditoria estruturada e pausa antes da Fase 3, sem modificar arquivos antes da confirmação humana.
+
+#### Figura 5 — Execução da skill `refactor-arch` no Codex
+
+![Figura 5 — Execução da skill refactor-arch no OpenAI Codex durante a Fase 2, com análise da stack, geração da auditoria, classificação por severidade e pausa antes da Fase 3.](./assets/screenshots/codex-skill-execucao.png)
+
+#### Figura 6 — Geração do relatório estruturado antes da Fase 3
+
+![Figura 6 — Geração do relatório estruturado da auditoria no projeto code-smells-project, ainda sem modificação de código antes da confirmação humana.](./assets/screenshots/codex-skill-auditoria.png)
+
 ### Checklist de validação
 
 #### Projeto 1 — code-smells-project
