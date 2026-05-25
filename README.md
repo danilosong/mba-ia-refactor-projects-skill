@@ -77,9 +77,9 @@ Desafios encontrados:
 
 ### Relatórios gerados
 
-- [audit-project-1.md](/var/www/mba-ia-refactor-projects-skill/reports/audit-project-1.md)
-- [audit-project-2.md](/var/www/mba-ia-refactor-projects-skill/reports/audit-project-2.md)
-- [audit-project-3.md](/var/www/mba-ia-refactor-projects-skill/reports/audit-project-3.md)
+- [audit-project-1.md](reports/audit-project-1.md)
+- [audit-project-2.md](reports/audit-project-2.md)
+- [audit-project-3.md](reports/audit-project-3.md)
 
 ### Logs de validação
 
