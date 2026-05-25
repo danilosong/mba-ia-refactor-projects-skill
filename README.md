@@ -120,6 +120,24 @@ financial_report 200
 delete_user 200
 ```
 
+### Evidências visuais
+
+#### Figura 1 — code-smells-project em execução
+
+![Figura 1 — code-smells-project em execução após a refatoração, com inicialização da aplicação e respostas bem-sucedidas dos endpoints /health e /produtos.](./assets/screenshots/code-smells-project-validacao.png)
+
+#### Figura 2 — task-manager-api validada após a refatoração
+
+![Figura 2 — task-manager-api validada após a refatoração, com respostas corretas dos endpoints /health, /tasks e /reports/summary.](./assets/screenshots/task-manager-api-validacao.png)
+
+#### Figura 3 — ecommerce-api-legacy inicializada após a refatoração
+
+![Figura 3 — ecommerce-api-legacy inicializada após a refatoração, com dependências instaladas e servidor Express em execução na porta 3000.](./assets/screenshots/ecommerce-api-legacy-boot.png)
+
+#### Figura 4 — validação funcional do ecommerce-api-legacy
+
+![Figura 4 — validação funcional do ecommerce-api-legacy após a refatoração, com relatório financeiro, checkout aprovado e checkout recusado respondendo corretamente.](./assets/screenshots/ecommerce-api-legacy-endpoints.png)
+
 ### Checklist de validação
 
 #### Projeto 1 — code-smells-project
